@@ -10,3 +10,5 @@ There will be a Cart component can be placed on the page. This component should 
  Number of products
  Total amount of the order.
  Optionally items placed in the cart (see sample image) ( this can be avoided if you still are learning HTML/CSS )
+
+![image](https://user-images.githubusercontent.com/123962636/216872474-e81ef950-0347-483b-8659-98bcfe526139.png)
