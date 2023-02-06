@@ -1,0 +1,108 @@
+.card {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    height: 300px;
+    overflow: hidden;
+    width: 250px;
+    margin: 15px 15px;
+    display : flex;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.details {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 81%;
+    width: 100%;
+    transition: box-shadow .3s ease-in-out,
+                top .3s ease-in-out;
+}
+
+.card:hover .details {
+    box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+    top: 60%;
+}
+
+.details > .min-details {
+    margin-bottom: 5px;
+}
+
+.details > .min-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details > .min-details > h1 > span {
+    color: #7B7B7B;
+    display: block;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.card-btn {
+    background-color: #192a56;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 45%;
+    transition: box-shadow .3s ease-in-out,
+                transform .3s ease-in-out;
+    font-weight: 700;
+    border-width: 2px;
+}
+
+.card-btn:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.3);
+  transform: translateY(-2px);
+}
+
+.add-btn{
+    background-color: rgb(43, 235, 18);
+    color: black;
+}
+
+.remove-btn{
+    background-color: rgb(230, 77, 38);
+    color: white;
+}
+
+.card-cart-count{
+    position: absolute;
+    margin: 10px 0px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.card-cart-count-value{
+    color: white;
+}
+
+.product-title {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.product-price{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: #252424;
+}
+
+.card-btn-container{
+    justify-content: space-between;
+    display: flex;
+}
